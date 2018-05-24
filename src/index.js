@@ -5,7 +5,7 @@ import Header from './components/Header';
 import NewsList from './components/NewsList';
 
 //styles
-import './index.scss'
+import './styles/css/index.css'
 
 class App extends React.Component {
   render() {
