@@ -1,0 +1,29 @@
+.component--header {
+  background-color: #006b00;
+  text-align: center; }
+  .component--header .header-text {
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 40px; }
+  .component--header input {
+    margin-bottom: 0.5em; }
+
+.component--news-list {
+  padding: 0.5em; }
+
+.component--news-list-item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box; }
+  .component--news-list-item > p:first-child {
+    font-size: 1.5em;
+    font-weight: 700; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e46666;
+  font-family: 'PT Sans', 'sans-serif'; }
+
+/*# sourceMappingURL=index.css.map */

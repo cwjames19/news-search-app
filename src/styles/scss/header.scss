@@ -1,0 +1,15 @@
+.component--header {
+  background-color: #006b00;
+  text-align: center;
+  
+  .header-text {
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 40px;
+  }
+
+  input {
+    margin-bottom: 0.5em;
+  }
+}
