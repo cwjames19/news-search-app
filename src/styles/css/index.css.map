@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;ACAZ,IAAK;EACH,gBAAgB,EAAE,SAAS",
-"sources": ["../scss/app.scss","../scss/index.scss"],
+"mappings": "AAAA,kBAAmB;EACjB,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,MAAM;EAElB,+BAAa;IACX,KAAK,EAAE,KAAK;IACZ,UAAU,EAAE,MAAM;IAClB,OAAO,EAAE,OAAO;IAChB,SAAS,EAAE,IAAI;EAGjB,wBAAM;IACJ,aAAa,EAAE,KAAK;;ACZxB,qBAAsB;EACpB,OAAO,EAAE,KAAK;;ACDhB,0BAA2B;EACzB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,cAAc;EAC7B,UAAU,EAAE,UAAU;EAEtB,0CAAgB;IACd,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,GAAG;;ACFpB,IAAK;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,OAAkB;EACpC,WAAW,EAAE,uBAAuB",
+"sources": ["../scss/header.scss","../scss/newsList.scss","../scss/newsListItem.scss","../scss/index.scss"],
 "names": [],
 "file": "index.css"
 }

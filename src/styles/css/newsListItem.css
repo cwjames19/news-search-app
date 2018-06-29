@@ -1,0 +1,9 @@
+.component--news-list-item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box; }
+  .component--news-list-item > p:first-child {
+    font-size: 1.5em;
+    font-weight: 700; }
+
+/*# sourceMappingURL=newsListItem.css.map */
