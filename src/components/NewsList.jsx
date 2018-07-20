@@ -1,16 +1,17 @@
 import React from 'react';
 //components
-import NewsItem from './NewsListItem';
+import NewsListItem from './NewsListItem';
 
 
-const NewsList = function(props) {
-  const items = props.news.map( item => <NewsItem item={item} key={item.id} /> );
-
+const NewsList = function({keyword, filtered}) {
+  const items = filtered.map( item => <NewsListItem title={item.title} feed={item.feed} keyword={keyword} key={item.id} /> )
   return (
-    <main className="component--news-list">
-      {/* {props.children} */}
-      <div>{ items }</div>
-    </main>
+    items.length === 0 ?
+      <h3>Sorry, no articles with your search term were found.</h3>
+    :
+      <main className="component--news-list">
+        <div>{ items }</div>
+      </main>
   );
 }
 
