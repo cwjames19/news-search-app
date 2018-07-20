@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,0BAA2B;EACzB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,cAAc;EAC7B,UAAU,EAAE,UAAU;EAEtB,0CAAgB;IACd,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,GAAG",
+"mappings": "AAAA,0BAA2B;EACzB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,cAAc;EAC7B,UAAU,EAAE,UAAU;EAEtB,iCAAO;IACL,gBAAgB,EAAE,MAAM;EAG1B,0CAAgB;IACd,SAAS,EAAE,KAAK;IAChB,WAAW,EAAE,GAAG",
 "sources": ["../scss/newsListItem.scss"],
 "names": [],
 "file": "newsListItem.css"
